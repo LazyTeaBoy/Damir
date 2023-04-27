@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+* {
+    font-family: 'Awesome', sans-serif;
+}
+.circlephoto{
+    border-radius: 80%;
+}
+.mainphoto {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.container-text-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rowmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url("coffee-biscuits.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.colmain {
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 60%;
+    border-radius: 3%;
+
+}
+
+.col {
+    flex: 1 1 300px;
+    margin: 20px;
+    text-align: center;
+
+}
+.circlephoto {
+    max-width: 100%;
+    height: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 133%;
+}
+.about{
+    text-align: left;
+    background-color: #f8f9fa;
+    padding-bottom: 5%;
+    margin-top: 3%;
+}
+.contactus{
+    background-color: #056dfd;
+    margin-bottom: 0;
+    text-align: center;
+    width: 200%;
+    color: whitesmoke;
+}
+.col-sm-8{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.bootimg{
+    margin-left: 30%;
+    margin-right: 3%;
+    border-radius: 80%;
+    height: 200%;
+}
+.info{
+    margin: 10%;
+}
+.top{
+    float: top;
+}
+.inf{
+    display: flex;
+    text-align: center;
+    margin-right: 10%;
+}
+.bootimg{
+    width: 70%;
+    height: auto;
+}
+.header{
+    opacity: 100%;
+    color: aliceblue;
+}
+.container{
+    margin-top: 3%;
+    margin-right:25%;
+}
+.col-md-6-about{
+    background-color: darkgray;
+}
+.col-md-6-contactus{
+    background-color: aqua;
+}
+.rowup{
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    .bootimg {
+        display: none;
+    }
+}
